@@ -41,7 +41,6 @@ def simplecount(filename):
 
 driver = webdriver.Chrome()
 
-"""
 driver.get('https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=US')
 
 time.sleep(wait_time)
@@ -70,7 +69,7 @@ elem_data.click()
 elem_data = driver.find_element_by_xpath("//option[@value='xls']")
 elem_data.click()
 time.sleep(wait_time)
-"""
+
 driver.get('https://data.bls.gov/timeseries/CUSR0000SA0&output_view=pct_1mth')
 
 time.sleep(wait_time)
